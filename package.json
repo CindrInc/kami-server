@@ -1,0 +1,28 @@
+{
+  "name": "kami-server",
+  "version": "1.0.0",
+  "description": "Server for KamiTV",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CindrInc/kami-server.git"
+  },
+  "keywords": [
+    "KamiTV;",
+    "anime"
+  ],
+  "author": "Cindr™",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CindrInc/kami-server/issues"
+  },
+  "homepage": "https://github.com/CindrInc/kami-server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "sqlite3": "^3.1.8"
+  }
+}
